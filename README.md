@@ -6,7 +6,11 @@
 	- 문자열의 처리
 	- 문자열과 변수
 	- 포맷팅
-	- Boolean
+	
 #### Python 활용 
 	- 홈페이지를 CGI로 구현
 	- URL query string 가져오기
+
+#### Python 문법
+	- Boolean
+	- 조건문과 논리 연산자

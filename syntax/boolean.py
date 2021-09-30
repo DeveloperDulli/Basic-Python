@@ -11,7 +11,6 @@ print(False) #거짓
 #Expression
 print(1+1)
 print('Hello '+'world') #Hello world
-print('Python '+'world')
 
 #Comparison operator
 print(1==1) #True

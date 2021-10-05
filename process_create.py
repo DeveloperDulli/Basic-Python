@@ -1,20 +1,14 @@
-#!python
+#!C:\Program Files\Python39\python.exe
 
-import sys
-import io
 
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
-sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 
-import cgi,os
-
+import cgi
 form = cgi.FieldStorage()
-title = form.getvalue('title')
-description = form.getvalue('description')
+title = form["title"].value
+description = form['description'].value
 
-opened_file = open('data/' + title, 'w')
+opened_file = open('data/'+title, 'w')
 opened_file.write(description)
-opened_file.close()
 
 #Redirection
 print("Location: index.py?id="+title)

@@ -14,7 +14,6 @@ print('Hello '+'world') #Hello world
 
 #Comparison operator
 print(1==1) #True
-print(1==2) #False
 print(1<2)  #True
 print(2<1)  #False
 

@@ -2,6 +2,7 @@ s = [1, 'four', 9, 16, 25]
 print(s)
 print(s[0])  # 1
 print(s[1])  # four
+print(s[2])  # 9
 
 print(len(s))  # 길이 측정 : 5
 

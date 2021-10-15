@@ -3,6 +3,7 @@ print(s)
 print(s[0])  # 1
 print(s[1])  # four
 print(s[2])  # 9
+print(s[3]) # 16
 
 print(len(s))  # 길이 측정 : 5
 

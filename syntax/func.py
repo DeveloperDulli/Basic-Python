@@ -5,6 +5,15 @@ c=3
 s=a+b+c
 r=s/3
 print(r)
+
+#code....
+a=2
+b=4
+c=5
+s=a+b+c
+r=s/3
+print(r)
+
 #code....
 
 '''
